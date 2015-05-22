@@ -65,5 +65,9 @@
     <string name="recents_clear_all_location_top_center">Superior centrado</string>
     <string name="recents_clear_all_location_bottom_right">Inferior derecho</string>
     <string name="recents_clear_all_location_bottom_left">Inferior izquierdo</string>
-    <string name="recents_clear_all_location_bottom_center">Inferior centrado</string>	
+    <string name="recents_clear_all_location_bottom_center">Inferior centrado</string>
+
+    <!-- Memory bar recents  -->
+    <string name="recents_show_membar_title">Barra de memoria</string>
+    <string name="recents_show_membar_summary">Mostrar una barra con la memoria disponible</string>	
 </resources>
