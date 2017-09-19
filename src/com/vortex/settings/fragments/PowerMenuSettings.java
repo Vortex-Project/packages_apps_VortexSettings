@@ -35,6 +35,7 @@ import android.support.annotation.NonNull;
 
 import com.android.internal.logging.nano.MetricsProto;
 import com.android.settings.SettingsPreferenceFragment;
+import com.vortex.settings.preferences.Utils;
 
 import java.util.Arrays;
 import java.util.ArrayList;
@@ -47,6 +48,9 @@ public class PowerMenuSettings extends SettingsPreferenceFragment
                 implements Preference.OnPreferenceChangeListener {
 
 
+    private static final String KEY_POWERMENU_TORCH = "powermenu_torch";
+
+    private SwitchPreference mPowermenuTorch;
     private static final String PREF_ON_THE_GO_ALPHA = "on_the_go_alpha";
     private static final String SCREEN_OFF_ANIMATION = "screen_off_animation";
 
@@ -63,6 +67,15 @@ public class PowerMenuSettings extends SettingsPreferenceFragment
         final ContentResolver resolver = getActivity().getContentResolver();
         final PreferenceScreen prefScreen = getPreferenceScreen();
 
+        mPowermenuTorch = (SwitchPreference) findPreference(KEY_POWERMENU_TORCH);
+        mPowermenuTorch.setOnPreferenceChangeListener(this);
+        if (!Utils.deviceSupportsFlashLight(getActivity())) {
+            prefScreen.removePreference(mPowermenuTorch);
+        } else {
+        mPowermenuTorch.setChecked((Settings.System.getInt(resolver,
+                Settings.System.POWERMENU_TORCH, 0) == 1));
+        }
+		
         mScreenOffAnimation = (ListPreference) findPreference(SCREEN_OFF_ANIMATION);
         int screenOffAnimation = Settings.Global.getInt(getContentResolver(),
                 Settings.Global.SCREEN_OFF_ANIMATION, 0);
@@ -81,6 +94,13 @@ public class PowerMenuSettings extends SettingsPreferenceFragment
     @Override
     public boolean onPreferenceChange(Preference preference, Object newValue) {
 
+        if (preference == mPowermenuTorch) {
+            boolean value = (Boolean) newValue;
+            Settings.System.putInt(getActivity().getContentResolver(),
+                    Settings.System.POWERMENU_TORCH, value ? 1 : 0);
+            return true;
+        }
+		
         ContentResolver resolver = getActivity().getContentResolver();
 		if (preference == mScreenOffAnimation) {
             int value = Integer.valueOf((String) newValue);
