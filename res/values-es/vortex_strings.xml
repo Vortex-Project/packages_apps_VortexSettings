@@ -70,4 +70,10 @@
     <!-- Memory bar recents  -->
     <string name="recents_show_membar_title">Barra de memoria</string>
     <string name="recents_show_membar_summary">Mostrar una barra con la memoria disponible</string>	
+
+	<!-- Oreo Recents Style -->
+    <string name="recents_type_title">Diseño de recientes estilo Oreo</string>
+    <string name="recents_stock">Stock</string>
+    <string name="recents_grid">Cuadrícula</string>
+    <string name="recents_go">Android Go</string>
 </resources>
