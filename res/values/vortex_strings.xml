@@ -410,4 +410,9 @@
     <string name="lock_fonts_condensed_bold_italic">Condensed Bold Italic</string>
     <string name="lock_fonts_medium_normal">Medium</string>
     <string name="lock_fonts_medium_italic">Medium Italic</string>
+
+    <!-- Lock date fonts -->
+    <string name="lock_date_font_title">Date font options</string>
+    <string name="lock_date_font_summary">Change the default font of the lockscreen date widget</string>
+    <string name="lock_date_font_dialog_title">Select lock date font</string>
 </resources>
