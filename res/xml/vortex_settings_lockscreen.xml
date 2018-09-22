@@ -18,7 +18,13 @@
     android:title="@string/lockscreen_title"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
-    <!-- Ambient music ticker -->
+	<com.vortex.settings.preferences.SystemSettingSwitchPreference
+        android:key="lockscreen_battery_info"
+        android:title="@string/lockscreen_battery_info_title"
+        android:summary="@string/lockscreen_battery_info_summary"
+        android:defaultValue="true" />
+
+	<!-- Ambient music ticker -->
     <Preference
         android:key="force_ambient_for_media_pref"
         android:fragment="com.vortex.settings.fragments.AmbientTicker"
