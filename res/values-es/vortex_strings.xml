@@ -48,4 +48,8 @@
     <string name="edge_gestures_back_show_ui_feedback_summary">Mostrar animación al usar el gesto atrás</string>
     <string name="edge_gestures_desc">Deslizar desde abajo para Home, mantener para recientes. Deslizar desde la parte inferior derecha o izquierda para atrás.</string>
 
+    <!-- AOSP Recents component Style -->
+    <string name="recents_component_type_title">Estilo de recientes</string>
+    <string name="recents_pie">Pie</string>
+    <string name="recents_oreo">Oreo</string>
 </resources>
