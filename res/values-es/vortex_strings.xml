@@ -76,4 +76,11 @@
     <string name="recents_stock">Stock</string>
     <string name="recents_grid">Cuadrícula</string>
     <string name="recents_go">Android Go</string>
+
+    <!-- Recents icon packs -->
+    <string name="recents_icon_pack_title">Paquete de iconos</string>
+    <string name="recents_icon_pack_summary">Aplicar un paquete de iconos personalizados para el panel recientes</string>
+    <string name="no_iconpacks_summary">No hay paquetes de iconos instalados</string>
+    <string name="dialog_pick_iconpack_title">Elegir paquete de iconos</string>
+    <string name="default_iconpack_title">Iconos predeterminados</string>	
 </resources>
