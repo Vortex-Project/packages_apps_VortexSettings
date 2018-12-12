@@ -327,4 +327,11 @@
     <string name="content_padding">Corner content padding</string>
     <string name="corner_fwvals">Use framework values</string>
     <string name="corner_fwvals_summary">Useful if the device actually has rounded corners</string>	
+
+    <!-- QS panel tuner -->
+    <string name="qs_panel_tuner_category_title">QS panel tuner</string>
+    <string name="show_secure_title">Security footer</string>
+    <string name="show_secure_summary">Shows VPN status on top of the QS panel</string>
+    <string name="show_info_header_title">Information header</string>
+    <string name="show_info_header_summary">Shows information on top of the QS panel</string>
 </resources>
