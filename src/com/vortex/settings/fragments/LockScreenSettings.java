@@ -15,7 +15,8 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.nitrogen.settings.fragments;
+
+package com.vortex.settings.fragments;
 
 import com.android.internal.logging.nano.MetricsProto;
 
@@ -44,7 +45,7 @@ public class LockScreenSettings extends SettingsPreferenceFragment implements
     @Override
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
-        addPreferencesFromResource(R.xml.nitrogen_settings_lockscreen);
+        addPreferencesFromResource(R.xml.vortex_settings_lockscreen);
 
         ContentResolver resolver = getActivity().getContentResolver();
         final PreferenceScreen prefScreen = getPreferenceScreen();
@@ -60,7 +61,7 @@ public class LockScreenSettings extends SettingsPreferenceFragment implements
 
     @Override
     public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.NITROGEN_SETTINGS;
+        return MetricsProto.MetricsEvent.VORTEX_SETTINGS;
     }
 
 }
