@@ -22,6 +22,7 @@
     <!-- Categories -->
     <string name="button_title">Buttons</string>
     <string name="gestures_title">Gestures</string>
+    <string name="interfaces_title">Interfaces</string>
     <string name="lockscreen_title">Lock screen</string>
     <string name="misc_title">Miscellaneous</string>
     <string name="navbar_title">Navigation bar</string>
@@ -31,6 +32,9 @@
     <string name="volume_title">Volume rockers</string>
     <string name="notifications_title">Notifications</string>
     <string name="aosp_gesture_title">AOSP Gestures</string>
+
+    <!-- Dashboard conditions--> 
+    <string name="dashboard_category">Settings Dashboard</string>	
 
     <!-- General strings -->
     <string name="ok">OK</string>
@@ -308,4 +312,11 @@
     <string name="gesture_swipe_length_summary">Heigth from bottom to trigger swipe</string>
     <string name="gesture_action_timeout_title">Swipe trigger timeout</string>
     <string name="gesture_action_timeout_summary">Timeout before the gesture action is started</string>
+	
+	<!-- Settings dashboard icon style -->
+    <string name="theming_settings_dashboard_icons_title">Dashboard icons</string>
+    <string name="theming_settings_dashboard_icons_default">Round</string>
+    <string name="theming_settings_dashboard_icons_default_accent">Round (Accent)</string>
+    <string name="theming_settings_dashboard_icons_plain">Oreo</string>
+    <string name="theming_settings_dashboard_icons_plain_accent">Oreo (Accent)</string>
 </resources>
