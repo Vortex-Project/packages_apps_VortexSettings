@@ -15,8 +15,15 @@
 -->
 <PreferenceScreen
         xmlns:android="http://schemas.android.com/apk/res/android"
-	android:title="@string/misc_title"
+		android:title="@string/misc_title"
         xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+
+
+    <Preference
+		android:key="smart_pixels"
+		android:title="@string/smart_pixels_title"
+		android:summary="@string/smart_pixels_summary"
+		android:fragment="com.vortex.settings.fragments.SmartPixels" />
 
     <com.vortex.settings.preferences.SystemSettingSwitchPreference
         android:key="wake_when_plugged_or_unplugged"
@@ -97,5 +104,5 @@
             android:entryValues="@array/stabilization_velocity_amplitude_values"
             android:dependency="stabilization_enable"
             android:persistent="false" />
-    </PreferenceCategory>	
+    </PreferenceCategory>
 </PreferenceScreen>
