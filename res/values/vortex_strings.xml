@@ -17,7 +17,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <!-- App Title -->
-    <string name="vortex_settings_title">Vortex Customizations</string>
+    <string name="vortex_settings_title">Vortex OS</string>
 
     <!-- Categories -->
     <string name="button_title">Buttons</string>
@@ -31,6 +31,7 @@
     <string name="statusbar_title">Status bar</string>
     <string name="volume_title">Volume rockers</string>
     <string name="notifications_title">Notifications</string>
+    <string name="recents_title">Recents</string>	
     <string name="aosp_gesture_title">AOSP Gestures</string>
 
     <!-- General strings -->
