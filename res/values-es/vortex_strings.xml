@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Copyright (C) 2016 The Nitrogen OS
+     Copyright (C) 2019 Vortex OS Project
+
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
      You may obtain a copy of the License at
+
           http://www.apache.org/licenses/LICENSE-2.0
+
      Unless required by applicable law or agreed to in writing, software
      distributed under the License is distributed on an "AS IS" BASIS,
      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -12,8 +16,26 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
+    <!-- App Title -->
+    <string name="vortex_settings_title">Vortex OS</string>
+
+    <!-- Categories -->
+    <string name="button_title">Buttons</string>
+    <string name="gestures_title">Gestos</string>
+    <string name="interfaces_title">Interfaz</string>
+    <string name="lockscreen_title">Pantalla de bloqueo</string>
+    <string name="misc_title">Misceláneo</string>
+    <string name="navbar_title">Barra de navegación</string>
+    <string name="powermenu_title">Menu de apagado</string>
+    <string name="quicksettings_title">Ajustes Rapidos</string>
+    <string name="statusbar_title">Barra de estado</string>
+    <string name="volume_title">Control de Volumen</string>
+    <string name="notifications_title">Notificaciones</string>
+    <string name="recents_title">Recientes</string>
+    <string name="aosp_gesture_title">Gestos AOSP</string>
+
     <!-- Edge gestures --> 
-    <string name="edge_gestures_title">Gestos de navegación</string> 
+    <string name="edge_gestures_title">Gestos de navegación Edge</string> 
     <string name="edge_gestures_feedback_duration_title">Duración de la vibración</string> 
     <string name="edge_gestures_long_press_delay_title">Espera para mostrar recientes</string> 
     <string name="edge_gestures_back_category_title">Gesto Atrás</string> 
