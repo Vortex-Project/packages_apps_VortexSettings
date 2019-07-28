@@ -33,6 +33,9 @@
     <string name="notifications_title">Notificaciones</string>
     <string name="recents_title">Recientes</string>
     <string name="aosp_gesture_title">Gestos AOSP</string>
+	
+	<!-- Sub Categories -->
+	<string name="oreo_recents_category">Recientes estilo Oreo</string>
 
     <!-- Edge gestures --> 
     <string name="edge_gestures_title">Gestos de navegación Edge</string> 
@@ -52,4 +55,15 @@
     <string name="recents_component_type_title">Estilo de recientes</string>
     <string name="recents_pie">Pie</string>
     <string name="recents_oreo">Oreo</string>
+ 
+ <!-- Recents panel settings -->
+    <string name="show_clear_all_recents_button_title">Botón de limpiar todo</string>
+    <string name="show_clear_all_recents_button_summary">Mostrar el botón de limpiar todo</string>
+    <string name="recents_clear_all_location_title">Localización del botón</string>
+    <string name="recents_clear_all_location_top_right">Superior derecho</string>
+    <string name="recents_clear_all_location_top_left">Superior izquierdo</string>
+    <string name="recents_clear_all_location_top_center">Superior centrado</string>
+    <string name="recents_clear_all_location_bottom_right">Inferior derecho</string>
+    <string name="recents_clear_all_location_bottom_left">Inferior izquierdo</string>
+    <string name="recents_clear_all_location_bottom_center">Inferior centrado</string>	
 </resources>
