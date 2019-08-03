@@ -20,7 +20,7 @@
     <string name="vortex_settings_title">Vortex OS</string>
 
     <!-- Categories -->
-    <string name="button_title">Buttons</string>
+    <string name="button_title">Botones</string>
     <string name="gestures_title">Gestos</string>
     <string name="interfaces_title">Interfaz</string>
     <string name="lockscreen_title">Pantalla de bloqueo</string>
@@ -56,7 +56,7 @@
     <string name="recents_pie">Pie</string>
     <string name="recents_oreo">Oreo</string>
  
- <!-- Recents panel settings -->
+    <!-- Recents panel settings -->
     <string name="show_clear_all_recents_button_title">Botón de limpiar todo</string>
     <string name="show_clear_all_recents_button_summary">Mostrar el botón de limpiar todo</string>
     <string name="recents_clear_all_location_title">Localización del botón</string>
@@ -76,4 +76,13 @@
     <string name="recents_stock">Stock</string>
     <string name="recents_grid">Cuadrícula</string>
     <string name="recents_go">Android Go</string>
+
+    <!-- Statusbar ticker -->
+    <string name="status_bar_ticker_title">Notificaciones ticker</string>
+    <string name="status_bar_show_ticker_title">Habilitar las notificaciones</string>
+    <string name="status_bar_show_ticker_summary">Vista previa de notificaciones en la barra de estado</string>
+    <string name="ticker_animation_mode_title">Tipo de animacion</string>
+    <string name="ticker_animation_mode_alpha_fade">Desvanecerse lentamente</string>
+    <string name="ticker_animation_mode_scroll">Deslizar</string>
+    <string name="ticker_tick_duration_title">Duración de la notificación ticker</string>	
 </resources>
