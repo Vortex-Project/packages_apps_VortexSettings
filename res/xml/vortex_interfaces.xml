@@ -17,6 +17,12 @@
         xmlns:android="http://schemas.android.com/apk/res/android"
         android:title="@string/interfaces_title"
         xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+	
+	<Preference
+        android:key="custom_header"
+        android:fragment="com.vortex.settings.fragments.CustomHeaders"
+        android:title="@string/custom_headers_title"
+        android:summary="@string/custom_headers_summary" />
 		
 	<PreferenceCategory 
         android:key="dashboard_category" 
