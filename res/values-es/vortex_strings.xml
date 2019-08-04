@@ -20,7 +20,7 @@
     <string name="vortex_settings_title">Vortex OS</string>
 
     <!-- Categories -->
-    <string name="button_title">Buttons</string>
+    <string name="button_title">Botones</string>
     <string name="gestures_title">Gestos</string>
     <string name="interfaces_title">Interfaz</string>
     <string name="lockscreen_title">Pantalla de bloqueo</string>
@@ -56,7 +56,7 @@
     <string name="recents_pie">Pie</string>
     <string name="recents_oreo">Oreo</string>
  
- <!-- Recents panel settings -->
+    <!-- Recents panel settings -->
     <string name="show_clear_all_recents_button_title">Botón de limpiar todo</string>
     <string name="show_clear_all_recents_button_summary">Mostrar el botón de limpiar todo</string>
     <string name="recents_clear_all_location_title">Localización del botón</string>
